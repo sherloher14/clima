@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Clima</title>
+</head>
+<body>
+
+    <script src="Clima.js"></script>
+    <link rel="stylesheet" href="Clima.css">
+    
+    <h1>Weather</h1>
+
+    <div class="Datos">
+        <input type="text" placeholder="Latitud" id="lat">
+        <input type="text" placeholder="Longitud" id="lon">
+        <input type="submit" name="Input" id="input" onclick="buscar()">
+    </div>
+
+    <div class="Info">
+        <h3 id="ciudad"></h3>
+        <div id="temperatura"></div>
+    </div>
+</body>
+</html>
